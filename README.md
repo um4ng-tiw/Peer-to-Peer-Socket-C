@@ -8,7 +8,7 @@ This program involves a peer which can send and receive simultaneously, created 
 **Simultaneous send and receive** <br>
 The program achieves simultaneous send and receive by running the receive method on seperate thread. The program involves the use of **select()** system call to identify the ready file descriptors and loop over them to receive the messages in queue. However, this simultaneous send and receive is not refined and may interrupt the user while sending the message. 
 
-**Running instructions**
+**Running instructions** <br>
 The program was executed on a Linux system using the gcc compiler.
 
 ```
